@@ -1,0 +1,32 @@
+﻿{
+  "targets": {
+    "browser": {
+      "compile": [
+        {
+          "input": "src/*.html",
+          "output": "docs/",
+          "minify": true
+        }
+      ],
+      "bundle": [],
+      "copy": [{
+        "input": "node_modules/b-here/dist/css/**/*.*",
+        "output": "docs/css/"
+      }, {
+        "input": "node_modules/b-here/dist/js/**/*.*",
+        "output": "docs/js/"
+      }]
+    }
+  },
+  "tfs": false,
+  "server": {
+    "root": "./docs",
+    "path": "/b-here-demo/",
+    "host": "0.0.0.0",
+    "port": 41234,
+    "log": false,
+    "https": {
+      "cert": "cert.crt"
+    }
+  }
+}
