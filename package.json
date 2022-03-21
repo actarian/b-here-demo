@@ -2,7 +2,7 @@
   "author": "Luca Zampetti <lzampetti@gmail.com>",
   "name": "b-here-demo",
   "description": "b-here-demo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -21,10 +21,10 @@
     "start": "run-s build serve"
   },
   "dependencies": {
-    "b-here": "github:actarian/b-here#mono-router5"
+    "b-here": "github:actarian/b-here#b-here-1.0.1"
   },
   "devDependencies": {
-    "gulpfile-config": "1.0.0-alpha.16",
+    "gulpfile-config": "1.0.0-alpha.18",
     "mkcert": "1.5.0",
     "npm-run-all": "4.1.5"
   }
