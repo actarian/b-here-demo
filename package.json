@@ -2,7 +2,7 @@
   "author": "Luca Zampetti <lzampetti@gmail.com>",
   "name": "b-here-demo",
   "description": "b-here-demo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -21,7 +21,7 @@
     "start": "run-s build serve"
   },
   "dependencies": {
-    "b-here": "github:actarian/b-here#b-here-1.0.1"
+    "beta-bhere": "1.0.2"
   },
   "devDependencies": {
     "gulpfile-config": "1.0.0-alpha.18",
